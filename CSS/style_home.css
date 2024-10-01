@@ -1,0 +1,81 @@
+body {
+    background-size: cover; /* Cobre toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: initial;
+    font-weight: bold;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://drive.google.com/uc?export=view&id=1PButY6cWon97u2UO8wYmqpo-3166P0gh');
+}
+
+    .content{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 650px; /* ajusta topo*/
+        margin-bottom: auto; /* ajusta em baixo*/
+
+    }
+
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: initial;
+    color: #f0f0f0;
+    display: flex;
+}
+
+    .links{
+        margin-bottom: 20px;
+        justify-content: center;
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+a {
+    margin: 10px 25px 10px 0;
+    text-decoration: none;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+
+}
+
+.center-button {
+    display: flex;
+    justify-content: center; /* Centraliza o botão */
+}
+
+button {
+    font-family: 'Space Grotesk', sans-serif;    /* Mantém a mesma fonte do body */
+    font-size: 22px; /* Aumenta o tamanho da fonte do botão */
+    font-weight: bold; /* Negrito */
+    cursor: pointer; /* Mostra o cursor de pointer */
+    padding: 5px 15px; /* Adiciona um pouco de padding */
+    background: transparent;
+    border: transparent;
+    color: transparent; /* Texto branco */
+}
+
+.rainbow-button {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    font-weight: bold; /* Negrito */
+    background-clip: text;
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    animation: rainbow 5s ease infinite; /* Animação do arco-íris */
+    background-size: 300% 100%; /* Para garantir que a animação funcione corretamente */
+    color: transparent;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%; /* Começa do início */
+    }
+    100% {
+        background-position: 100% 50%; /* Termina no final */
+    }
+}
