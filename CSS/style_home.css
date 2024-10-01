@@ -11,7 +11,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-image: url('https://github.com/MatheusHyago/Site-Abel/blob/main/Fotos/Home_Page/abola11.jpeg?raw=true');
+    background-image: url('https://raw.githubusercontent.com/MatheusHyago/Site-Abel/refs/heads/main/Fotos/Home_Page/abola11.jpeg');
 }
 
     .content{
