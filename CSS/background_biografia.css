@@ -43,7 +43,7 @@ a {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 50px 120px; 
+    padding: 150px 120px; 
     box-shadow:  0 4px 20px rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro com opacidade */ 
 }
