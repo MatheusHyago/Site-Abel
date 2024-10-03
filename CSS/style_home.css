@@ -58,7 +58,7 @@ button {
     font-size: 22px; /* Aumenta o tamanho da fonte do botão */
     font-weight: bold; /* Negrito */
     cursor: pointer; /* Mostra o cursor de pointer */
-    padding: 5px 15px; /* Adiciona um pouco de padding */
+    padding: 5px 15px; /* Adiciona um pouco de espaço da borda */
     background: transparent;
     border: transparent;
     color: transparent; /* Texto branco */
